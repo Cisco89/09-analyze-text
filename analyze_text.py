@@ -12,8 +12,9 @@ def count_alpha_char(string):
 def count_e_char(string):
     e_count = 0
     e = "e"
+    cap_e = "E"
     for char in string:
-        if char == e:
+        if char == e or char == cap_e:
             e_count +=1
     return e_count
     
