@@ -32,4 +32,4 @@ def analyze_text(text):
 
     percent = percent_of_char_is_e(e_count, alpha_count)
  
-    return (f"The text contains {alpha_count} alphabetic characters, of which {e_count} ({percent}) are 'e'.")
+    return (f"The text contains {alpha_count} alphabetic characters, of which {e_count} ({percent}%) are 'e'.")
